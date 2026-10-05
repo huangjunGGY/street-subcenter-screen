@@ -1,0 +1,62 @@
+
+:root {
+  --el-color-white: #fff !important;
+  --el-color-black: #162d4c !important;
+  --el-color-primary: #71F8FC !important;
+  --el-color-primary-light-3: #71F8FC !important;
+  --el-color-primary-light-5: #71F8FC !important;
+  --el-color-primary-light-7: #71F8FC !important;
+  --el-color-primary-light-8: #71F8FC !important;
+  /* --el-color-primary-light-9: #71F8FC !important; */
+  --el-color-primary-dark-2: #162d4c !important;
+  --el-color-info: rgba(56, 75, 103, .32) !important;
+  --el-color-info-light-3: rgba(56, 75, 103, .32) !important;
+  --el-color-info-light-5: rgba(56, 75, 103, .32) !important;
+  --el-color-info-light-7: rgba(56, 75, 103, .32) !important;
+  --el-color-info-light-8: rgba(56, 75, 103, .32) !important;
+  --el-color-info-light-9: rgba(56, 75, 103, .32) !important;
+  --el-color-info-dark-2: #162d4c !important;
+  --el-bg-color: #162d4c !important;
+  --el-bg-color-page: #162d4c !important;
+  --el-bg-color-overlay: #3e96f8 !important;
+  --el-text-color-primary: #fff !important;
+  --el-text-color-regular: #fff !important;
+  --el-text-color-secondary: #fff !important;
+  --el-text-color-placeholder: #fff !important;
+  --el-text-color-disabled: #fff !important;
+  /* --el-border-color: #253346 !important; */
+  --el-border-color-light: #253346 !important;
+  --el-border-color-lighter: #253346 !important;
+  --el-border-color-extra-light: #253346 !important;
+  --el-border-color-dark: #253346 !important;
+  --el-border-color-darker: #253346 !important;
+  --el-fill-color: #162d4c !important;
+  --el-fill-color-light: #162d4c !important;
+  --el-fill-color-lighter: #162d4c !important;
+  --el-fill-color-extra-light: #162d4c !important;
+  --el-fill-color-dark: #162d4c !important;
+  --el-fill-color-darker: #162d4c !important;
+  --el-fill-color-blank: #162d4c !important;
+  --el-disabled-bg-color: #162d4c !important;
+  --el-disabled-text-color: #162d4c !important;
+  --el-disabled-border-color: #162d4c !important;
+  --el-overlay-color: rgba(0, 0, 0, 0.8);
+  --el-overlay-color-light: rgba(0, 0, 0, 0.7);
+  --el-overlay-color-lighter: rgba(0, 0, 0, 0.5);
+  --el-mask-color: #162d4c !important;
+  --el-mask-color-extra-light: #162d4c !important;
+  --el-border-color-hover: var(--el-text-color-disabled);
+  /* --el-box-shadow: 0px 0px 20px 0px rgba(113, 248, 252, 0.2) !important;
+  --el-box-shadow-light: 0px 0px 20px 0px rgba(113, 248, 252, 0.2) !important;
+  --el-box-shadow-lighter: 0px 0px 20px 0px rgba(113, 248, 252, 0.2) !important;
+  --el-box-shadow-dark: 0px 0px 20px 0px rgba(113, 248, 252, 0.2) !important; */
+  --el-border-color-lighter: #999 !important;
+}
+
+.el-dialog__body {
+  background: #162d4c !important;
+}
+
+* {
+  outline: none !important;
+}

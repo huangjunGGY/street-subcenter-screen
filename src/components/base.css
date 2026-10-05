@@ -1,0 +1,156 @@
+.weather-btns {
+    display: none;
+}
+
+.el-descriptions {
+    padding: 0 100px;
+}
+
+.el-descriptions__label {
+    font-weight: 900;
+    font-size: 18px !important;
+    opacity: 0.7;
+}
+
+.el-descriptions__content {
+    font-size: 22px !important;
+}
+
+.el-descriptions__title {
+    font-size: 26px !important;
+}
+
+
+.scroll tr {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.scroll .el-descriptions__body .el-descriptions__table:not(.is-bordered) .el-descriptions__cell {
+    width: 100% !important;
+}
+
+.event-p tr {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.event-p .el-descriptions__cell {
+    width: 100% !important;
+}
+
+.el-descriptions__body {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .1) !important;
+    border-radius: 12px;
+}
+
+.fwll .el-descriptions__cell {
+    width: auto !important;
+    margin: 0 30px;
+}
+
+.el-dialog__header,
+.dv-border-box-11-title,
+.num,
+#street {
+    font-family: 'YouSheBiaoTiHei-2' !important;
+}
+
+.active {
+    animation: jb 1s ease-in-out !important;
+}
+
+.el-form-item__label,
+.el-input,
+.el-textarea__inner {
+    font-size: 24px !important;
+}
+
+.el-tooltip__trigger {
+    margin: 0 auto !important;
+}
+
+.el-loading-mask {
+    z-index: 3000 !important;
+}
+
+@keyframes jb {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.el-calendar-table td.is-today {
+    color: #000 !important;
+}
+
+.el-calendar-day p {
+    font-size: 12px !important;
+}
+.el-calendar-day p:nth-child(2) {
+    font-size: 18px !important;
+}
+
+.el-calendar-table .el-calendar-day {
+    height: 70px !important;
+}
+
+
+:root {
+    --el-dialog-margin-top: 0 !important;
+}
+
+
+.el-descriptions__cell {
+    display: flex;
+}
+.el-descriptions__label {
+    display: block;
+    width: 120px !important;
+    text-align: right !important;
+}
+.el-descriptions__content {
+    display: block;
+    flex: 1;
+}
+
+.el-date-editor.el-input, .el-date-editor.el-input__wrapper {
+    padding-left: 20px !important;
+}
+
+
+
+.dv-border-svg-container {
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 1));
+}
+
+
+::-webkit-scrollbar {
+    width: 20px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--el-color-primary) !important;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #888;
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: #555;
+}
+

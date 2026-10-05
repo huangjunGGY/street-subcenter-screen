@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'title';
+    src: url('./YouSheBiaoTiHei-2.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ACENS';
+    src: url('./ACENS.TTF');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

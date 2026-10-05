@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN"
+  style="--status-bar-height: 0px; --top-window-height: 0px; --window-left: 0px; --window-right: 0px; --window-margin: 0px; --window-top: calc(var(--top-window-height) + 0px); --window-bottom: 0px;">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/logo.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+  <title>青山区街道大屏</title>
+  <meta http-equiv="Window-target" content="_top" />
+  <script>
+    var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+    document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+  </script>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+<script>
+    (function () {
+      var userAgent = navigator.userAgent
+      window.addEventListener('resize', function () {
+        if (navigator.userAgent !== userAgent) {
+          /* eslint-disable no-undef */
+          location.reload()
+        }
+      })
+    })()
+</script>
+
+</html>

@@ -1,0 +1,443 @@
+{
+    "metadata": {
+        "mapcenter": [
+            12744114.977334843,
+            3582735.958980496
+        ],
+        "indexbounds": [
+            -20037508.342789245,
+            -20037508.342789245,
+            20037508.342789245,
+            20037508.342789245
+        ],
+        "mapscale": 0.00000884029137635861,
+        "epsgcode": 3857,
+        "topscale": 3.3803271432053099e-9,
+        "mapbounds": [
+            12728076.213471976,
+            3573027.7555881466,
+            12754583.881348679,
+            3591154.5335547795
+        ]
+    },
+    "sources": {
+        "QingShan2D20231017": {
+            "tiles": [
+            ],
+            "bounds": [
+                -180,
+                -90,
+                180,
+                90
+            ],
+            "type": "vector"
+        }
+    },
+    "center": [
+        114.48233266716398,
+        30.614119461401115
+    ],
+    "name": "QingShan2D20231017",
+    "sprite": {},
+    "layers": [{
+            "paint": {
+                "background-color": "rgba(255,255,255,0.00)"
+            },
+            "id": "background",
+            "type": "background"
+        },
+        {
+            "layout": {
+                "visibility": "visible"
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "Polygon"
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "QingShanJieDao",
+                "layer:name": "青山_街道_1@QingShanQu_poi86"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "fill-color": "rgba(66,102,137,1.00)",
+                "fill-antialias": true
+            },
+            "id": "青山_街道_1@QingShanQu_poi86(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "青山_街道_1@QingShanQu_poi86",
+            "type": "fill",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "visibility": "visible"
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "Polygon"
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "QingShanJieDao",
+                "layer:name": "青山_街道_1@QingShanQu_poi86"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "line-width": 0.38,
+                "line-color": "rgba(102,102,102,1.00)"
+            },
+            "id": "青山_街道_1@QingShanQu_poi86_outline(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "青山_街道_1@QingShanQu_poi86",
+            "type": "line",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "visibility": "visible"
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "Polygon"
+                ],
+                [
+                    "any",
+                    [
+                        "==",
+                        "fclass",
+                        "forest"
+                    ],
+                    [
+                        "==",
+                        "fclass",
+                        "park"
+                    ]
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "park",
+                "layer:name": "landuse_1@QingShanQu_poi86#2"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "fill-color": "rgba(0,178,80,1.00)",
+                "fill-opacity": 0.4,
+                "fill-antialias": true
+            },
+            "id": "landuse_1@QingShanQu_poi86#2(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "landuse_1@QingShanQu_poi86",
+            "type": "fill",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "visibility": "visible"
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "Polygon"
+                ],
+                [
+                    "==",
+                    "fclass",
+                    "industrial"
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "industrial",
+                "layer:name": "landuse_1@QingShanQu_poi86#1"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "fill-color": "rgba(54,117,140,1.00)",
+                "fill-opacity": 0.7,
+                "fill-antialias": true
+            },
+            "id": "landuse_1@QingShanQu_poi86#1(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "landuse_1@QingShanQu_poi86",
+            "type": "fill",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "visibility": "visible"
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "Polygon"
+                ],
+                [
+                    "==",
+                    "fclass",
+                    "industrial"
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "industrial",
+                "layer:name": "landuse_1@QingShanQu_poi86#1"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "line-width": 0.38,
+                "line-color": "rgba(20,70,89,1.00)"
+            },
+            "id": "landuse_1@QingShanQu_poi86#1_outline(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "landuse_1@QingShanQu_poi86",
+            "type": "line",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "visibility": "visible"
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "Polygon"
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "water",
+                "layer:name": "water_1@QingShanQu_poi86"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "fill-color": "rgba(157,204,255,1.00)",
+                "fill-opacity": 0.6,
+                "fill-antialias": true
+            },
+            "id": "water_1@QingShanQu_poi86(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "water_1@QingShanQu_poi86",
+            "type": "fill",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "visibility": "visible"
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "Polygon"
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "building",
+                "layer:name": "building_1@QingShanQu_poi86"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "fill-color": "rgba(32,88,121,1.00)",
+                "fill-antialias": true
+            },
+            "id": "building_1@QingShanQu_poi86(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "building_1@QingShanQu_poi86",
+            "type": "fill",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "visibility": "visible"
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "LineString"
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "roads",
+                "layer:name": "roads_1@QingShanQu_poi86#1"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "line-width": [
+                    "match",
+                    [
+                        "get",
+                        "fclass"
+                    ],
+                    "trunk_link",
+                    1.89,
+                    "trunk",
+                    3.02,
+                    "tertiary",
+                    1.51,
+                    "secondary_link",
+                    1.13,
+                    "secondary",
+                    1.13,
+                    "primary_link",
+                    1.51,
+                    "primary",
+                    2.27,
+                    "motorway_link",
+                    1.89,
+                    "motorway",
+                    3.02,
+                    0.76
+                ],
+                "line-color": [
+                    "match",
+                    [
+                        "get",
+                        "fclass"
+                    ],
+                    "trunk_link",
+                    "rgba(70,154,222,1.00)",
+                    "trunk",
+                    "rgba(70,154,222,1.00)",
+                    "tertiary",
+                    "rgba(7,83,129,1.00)",
+                    "secondary_link",
+                    "rgba(70,154,222,1.00)",
+                    "secondary",
+                    "rgba(70,154,222,1.00)",
+                    "primary_link",
+                    "rgba(70,154,222,1.00)",
+                    "primary",
+                    "rgba(70,154,222,1.00)",
+                    "motorway_link",
+                    "rgba(70,154,222,1.00)",
+                    "motorway",
+                    "rgba(70,154,222,1.00)",
+                    "rgba(11,64,111,1.00)"
+                ]
+            },
+            "id": "roads_1@QingShanQu_poi86#1_unique_(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "roads_1@QingShanQu_poi86",
+            "type": "line",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "icon-rotation-alignment": "map",
+                "visibility": "visible",
+                "text-field": "{name}",
+                "text-size": 97.65,
+                "text-anchor": "top-left",
+                "text-allow-overlap": false,
+                "symbol-placement": "line",
+                "text-font": [
+                    "Microsoft YaHei"
+                ],
+                "text-rotate": 360,
+                "text-letter-spacing": 0,
+                "text-justify": "left",
+                "text-rotation-alignment": "map",
+                "text-keep-upright": true,
+                "text-ignore-placement": false,
+                "text-max-angle": 60
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "$type",
+                    "LineString"
+                ],
+                [
+                    "has",
+                    "name"
+                ],
+                [
+                    "!=",
+                    "name",
+                    ""
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "roads_label",
+                "layer:name": "roads_1@QingShanQu_poi86#3"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "text-color": "rgba(117,229,219,1.00)"
+            },
+            "id": "roads_1@QingShanQu_poi86#3(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "roads_1@QingShanQu_poi86",
+            "type": "symbol",
+            "minzoom": 0
+        },
+        {
+            "layout": {
+                "text-rotate": 360,
+                "visibility": "visible",
+                "text-letter-spacing": 0,
+                "text-justify": "left",
+                "text-field": "{name}",
+                "text-rotation-alignment": "viewport",
+                "text-size": 26.25,
+                "text-anchor": "center",
+                "text-allow-overlap": false,
+                "text-ignore-placement": false,
+                "symbol-placement": "point",
+                "text-font": [
+                    "Microsoft YaHei"
+                ]
+            },
+            "filter": [
+                "all",
+                [
+                    "has",
+                    "name"
+                ],
+                [
+                    "!=",
+                    "name",
+                    ""
+                ]
+            ],
+            "metadata": {
+                "layer:caption": "QingShanQu_label",
+                "layer:name": "QingShanQu_1@QingShanQu_poi86#2"
+            },
+            "maxzoom": 24,
+            "paint": {
+                "text-color": "rgba(221,221,221,1.00)",
+                "text-translate": [
+                    0,
+                    0
+                ]
+            },
+            "id": "QingShanQu_1@QingShanQu_poi86#2(0_24)",
+            "source": "QingShan2D20231017",
+            "source-layer": "QingShanQu_1@QingShanQu_poi86_ip",
+            "type": "symbol",
+            "minzoom": 0
+        }
+    ],
+    "zoom": 11.3,
+    "glyphs": "http://10.13.28.180:8195/portalproxy/guqcg5t4/iserver/services/map-qingshan2D20231017/restjsr/v1/vectortile/maps/QingShan2D20231017/fonts/{fontstack}/{range}",
+    "version": 8
+}
