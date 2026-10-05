@@ -118,6 +118,7 @@ export default defineConfig(({ mode }) => {
   probeBackend(proxyTarget)
 
   return {
+    base: './',
     plugins: [
       vue(),
       vueJsx(),

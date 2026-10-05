@@ -114,6 +114,19 @@ npm run preview
 
 ---
 
+## 🌐 在线演示与 GitHub Pages 部署
+
+本项目已预置自动部署工作流（[deploy.yml](file:///.github/workflows/deploy.yml)）与资源相对路径适配（`base: './'`），可零成本开启 GitHub Pages 在线实时预览：
+
+- **在线预览地址**：`https://huangjunGGY.github.io/street-subcenter-screen/`
+- **自动部署流程**：
+  1. 将代码 push 到 GitHub `main` 分支；
+  2. 在 GitHub 仓库页面点击 **Settings** -> **Pages**；
+  3. 在 **Build and deployment** 下方的 **Source** 选择 **GitHub Actions**；
+  4. 随后每次 push 代码，GitHub Actions 将全自动构建并发布到 GitHub Pages。
+
+---
+
 ## ⚙️ 环境配置说明
 
 项目通过环境变量文件进行环境差异化管理：
